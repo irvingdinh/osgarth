@@ -1,3 +1,4 @@
+import { headers } from 'next/headers'
 import { redirect, RedirectType } from 'next/navigation'
 import { Container } from 'typedi'
 
@@ -10,6 +11,8 @@ interface Props {
 }
 
 export default async function Page (props: Props) {
+  headers()
+
   const { slug } = props.params
 
   const item = await Container.get(ItemRepository).getItemBySlug(slug)

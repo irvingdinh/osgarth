@@ -1,11 +1,7 @@
-import { Container } from 'typedi'
-
-import { MongoInfra } from '../server/infra/mongo'
+import { headers } from 'next/headers'
 
 export default async function Page () {
-  const mongoInfra = Container.get(MongoInfra)
-
-  console.log(await mongoInfra.db().collections())
+  headers()
 
   return <p>This is Home page.</p>
 }
