@@ -1,0 +1,36 @@
+{
+  "name": "next-singleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^17.11.0",
+    "mongodb": "^6.1.0",
+    "next": "^13.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reflect-metadata": "^0.1.13",
+    "typedi": "^0.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.2",
+    "@types/react": "18.2.24",
+    "eslint": "^8.0.1",
+    "eslint-config-next": "13.5.4",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "typescript": "5.2.2"
+  }
+}
